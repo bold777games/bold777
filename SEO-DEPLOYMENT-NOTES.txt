@@ -1,0 +1,14 @@
+SEO deployment notes
+====================
+Canonical URLs assume these HTML files are uploaded at the root of https://bold777games.com/ :
+  index.html -> https://bold777games.com/
+  about.html -> https://bold777games.com/about.html
+  signup.html -> https://bold777games.com/signup.html
+  login.html -> https://bold777games.com/login.html
+  blog.html -> https://bold777games.com/blog.html
+
+IMPORTANT: The live domain already has WordPress pages and a sitemap. Before deployment, verify public paths. If you publish in a folder or on another domain, change canonical URLs, og:url values and sitemap locations to match actual public URLs. Do not replace the current site's sitemap without merging URLs or submitting the new sitemap appropriately.
+
+The empty Blog page has noindex,follow and is intentionally excluded from the sitemap. Once real posts are published, update its meta to index,follow and add its URL to your sitemap.
+
+This ZIP is a static HTML website, not a WordPress theme. Uploading the ZIP directly as a WordPress theme will not work.
