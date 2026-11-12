@@ -24,7 +24,7 @@ body{
 header{background:rgba(4,8,22,.91);border-bottom:1px solid rgba(120,151,255,.2);box-shadow:0 10px 35px rgba(0,0,0,.24)}
 .nav{height:78px}
 .brand{font-size:1.62rem;letter-spacing:-1.2px;white-space:nowrap}
-.brand:before{content:"♛";display:inline-block;color:var(--gold);font-size:1.25em;margin-right:9px;vertical-align:-2px;text-shadow:0 0 18px rgba(255,198,41,.45)}
+.brand:before{content:"";display:inline-block;color:var(--gold);font-size:1.25em;margin-right:9px;vertical-align:-2px;text-shadow:0 0 18px rgba(255,198,41,.45)}
 .brand span{color:var(--gold)}
 .navlinks{gap:clamp(12px,2vw,26px);font-size:.9rem;color:#d4dcf2}
 .navlinks a{transition:color .2s ease}
